@@ -10,7 +10,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   <style>
   :root {
@@ -30,14 +30,14 @@
   .reveal-viewport { background: var(--bg); }
   .reveal .slides section { background: transparent; }
 
-  .reveal { font-family: 'DM Sans', sans-serif; color: var(--text); }
-  .reveal h1, .reveal h2, .reveal h3 { font-family: 'Playfair Display', serif; font-weight: 700; }
+  .reveal { font-family: 'Schibsted Grotesk', sans-serif; color: var(--text); }
+  .reveal h1, .reveal h2, .reveal h3 { font-family: 'Schibsted Grotesk', serif; font-weight: 700; }
   .reveal h1 { font-size: 1.6em; color: var(--amber); line-height: 1.1; }
   .reveal h2 { font-size: 1.1em; color: var(--amber); margin-bottom: .2em; }
   .reveal h3 { font-size: .78em; color: var(--green); margin-bottom: .15em; }
   .reveal p  { font-size: .56em; line-height: 1.45; color: var(--text); }
   .reveal li { font-size: .54em; line-height: 1.45; margin-bottom: .1em; }
-  .reveal code { font-family: 'JetBrains Mono', monospace; font-size: .72em; }
+  .reveal code { font-family: 'Azeret Mono', monospace; font-size: .72em; }
   .reveal pre  { box-shadow: none; background: var(--bg3); border: 1px solid var(--border);
                  border-radius: 6px; padding: .3em .5em; margin: .25em 0; }
   .reveal pre code { font-size: .52em; line-height: 1.35; background: transparent; color: #242422; }
@@ -49,7 +49,7 @@
     padding-bottom: .2em; margin-bottom: .3em;
   }
   .slide-hdr .tag {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Azeret Mono', monospace;
     font-size: .42em; font-weight: 500;
     color: var(--bg); background: var(--amber);
     padding: .1em .4em; border-radius: 3px;
@@ -92,14 +92,14 @@
   .p  { color: var(--purple); font-weight: 600; }
   .b  { color: var(--blue); font-weight: 600; }
   .r  { color: var(--red); font-weight: 600; }
-  .mono { font-family: 'JetBrains Mono', monospace; }
+  .mono { font-family: 'Azeret Mono', monospace; }
 
   /* ── SVG graph diagrams ── */
   svg.diagram { display: block; margin: 0 auto; overflow: visible; }
 
   /* ── pill badges ── */
   .pill {
-    display: inline-block; font-family: 'JetBrains Mono', monospace;
+    display: inline-block; font-family: 'Azeret Mono', monospace;
     font-size: .44em; padding: .08em .4em; border-radius: 99px;
     border: 1px solid; margin: 0 .08em;
   }
@@ -113,15 +113,15 @@
   /* title slide special */
   .title-slide h1 { font-size: 1.8em; }
   .title-slide .subtitle {
-    font-size: .7em; color: var(--green); font-family: 'DM Sans', sans-serif;
+    font-size: .7em; color: var(--green); font-family: 'Schibsted Grotesk', sans-serif;
     font-weight: 300; letter-spacing: .04em; margin: .3em 0 .6em;
   }
-  .title-slide .meta { font-size: .48em; color: var(--muted); font-family: 'JetBrains Mono', monospace; }
+  .title-slide .meta { font-size: .48em; color: var(--muted); font-family: 'Azeret Mono', monospace; }
 
   /* ── super-step animator ── */
   .ss-row {
     display: flex; gap: .25em; align-items: center;
-    margin: .1em 0; font-size: .55em; font-family: 'JetBrains Mono', monospace;
+    margin: .1em 0; font-size: .55em; font-family: 'Azeret Mono', monospace;
   }
   .ss-node {
     padding: .2em .55em; border-radius: 5px; font-size: .9em;
@@ -146,7 +146,7 @@
   SLIDE 01 — Title
 ══════════════════════════════════════════════════════════════════ -->
 <section class="title-slide" data-background-color="#fafaf8">
-  <div style="font-family:'JetBrains Mono',monospace; font-size:.5em; color:var(--muted); margin-bottom:.4em; letter-spacing:.1em;">COMPUTER SCIENCE FUNDAMENTALS SERIES</div>
+  <div style="font-family:'Azeret Mono',monospace; font-size:.5em; color:var(--muted); margin-bottom:.4em; letter-spacing:.1em;">COMPUTER SCIENCE FUNDAMENTALS SERIES</div>
   <h1>Binary Search<br>Trees</h1>
   <div class="subtitle">
     BST invariant · Search &amp; insertion · Balancing ·<br>
@@ -200,26 +200,26 @@
           <line x1="260" y1="155" x2="240" y2="215" stroke="#d1d1cb" stroke-width="1.5"/>
           <!-- Nodes -->
           <circle cx="150" cy="30" r="20" fill="#e7e7e2" stroke="#bf7d10" stroke-width="2"/>
-          <text x="150" y="35" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#bf7d10" font-weight="700">8</text>
+          <text x="150" y="35" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="14" fill="#bf7d10" font-weight="700">8</text>
           <circle cx="80" cy="90" r="20" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="80" y="95" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#1c815a">3</text>
+          <text x="80" y="95" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="14" fill="#1c815a">3</text>
           <circle cx="230" cy="90" r="20" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="230" y="95" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#1c815a">10</text>
+          <text x="230" y="95" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="14" fill="#1c815a">10</text>
           <circle cx="40" cy="150" r="20" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="40" y="155" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#6435bc">1</text>
+          <text x="40" y="155" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="14" fill="#6435bc">1</text>
           <circle cx="120" cy="150" r="20" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="120" y="155" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#6435bc">6</text>
+          <text x="120" y="155" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="14" fill="#6435bc">6</text>
           <circle cx="260" cy="150" r="20" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="260" y="155" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#6435bc">14</text>
+          <text x="260" y="155" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="14" fill="#6435bc">14</text>
           <circle cx="100" cy="210" r="18" fill="#e7e7e2" stroke="#2b3dc5" stroke-width="1.5"/>
-          <text x="100" y="215" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#2b3dc5">4</text>
+          <text x="100" y="215" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#2b3dc5">4</text>
           <circle cx="145" cy="210" r="18" fill="#e7e7e2" stroke="#2b3dc5" stroke-width="1.5"/>
-          <text x="145" y="215" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#2b3dc5">7</text>
+          <text x="145" y="215" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#2b3dc5">7</text>
           <circle cx="240" cy="210" r="18" fill="#e7e7e2" stroke="#2b3dc5" stroke-width="1.5"/>
-          <text x="240" y="215" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#2b3dc5">13</text>
+          <text x="240" y="215" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#2b3dc5">13</text>
           <!-- Labels -->
-          <text x="55" y="60" font-family="'DM Sans',sans-serif" font-size="10" fill="#6a6a63">left &lt; node</text>
-          <text x="185" y="60" font-family="'DM Sans',sans-serif" font-size="10" fill="#6a6a63">node &lt; right</text>
+          <text x="55" y="60" font-family="'Schibsted Grotesk',sans-serif" font-size="10" fill="#6a6a63">left &lt; node</text>
+          <text x="185" y="60" font-family="'Schibsted Grotesk',sans-serif" font-size="10" fill="#6a6a63">node &lt; right</text>
         </svg>
       </div>
     </div>
@@ -514,20 +514,20 @@
           <line x1="190" y1="65" x2="160" y2="115" stroke="#d1d1cb" stroke-width="1.5"/>
           <line x1="190" y1="65" x2="220" y2="115" stroke="#d1d1cb" stroke-width="1.5"/>
           <circle cx="130" cy="22" r="16" fill="#e7e7e2" stroke="#bf7d10" stroke-width="2"/>
-          <text x="130" y="27" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#bf7d10" font-weight="700">4</text>
+          <text x="130" y="27" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#bf7d10" font-weight="700">4</text>
           <circle cx="70" cy="62" r="16" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="70" y="67" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#1c815a">2</text>
+          <text x="70" y="67" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#1c815a">2</text>
           <circle cx="190" cy="62" r="16" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="190" y="67" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#1c815a">6</text>
+          <text x="190" y="67" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#1c815a">6</text>
           <circle cx="40" cy="112" r="16" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="40" y="117" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#6435bc">1</text>
+          <text x="40" y="117" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#6435bc">1</text>
           <circle cx="100" cy="112" r="16" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="100" y="117" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#6435bc">3</text>
+          <text x="100" y="117" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#6435bc">3</text>
           <circle cx="160" cy="112" r="16" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="160" y="117" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#6435bc">5</text>
+          <text x="160" y="117" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#6435bc">5</text>
           <circle cx="220" cy="112" r="16" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="220" y="117" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#6435bc">7</text>
-          <text x="130" y="150" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="10" fill="#6a6a63">Perfectly balanced — height = 2</text>
+          <text x="220" y="117" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="13" fill="#6435bc">7</text>
+          <text x="130" y="150" text-anchor="middle" font-family="'Schibsted Grotesk',sans-serif" font-size="10" fill="#6a6a63">Perfectly balanced — height = 2</text>
         </svg>
       </div>
       <div class="card blue" style="margin-top:.4em">
@@ -761,24 +761,24 @@
           <line x1="200" y1="80" x2="230" y2="140" stroke="#d1d1cb" stroke-width="1.5"/>
           <!-- Nodes: (key, priority) -->
           <circle cx="130" cy="26" r="18" fill="#e7e7e2" stroke="#bf7d10" stroke-width="2"/>
-          <text x="130" y="24" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#bf7d10" font-weight="700">G</text>
-          <text x="130" y="36" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#1c815a">99</text>
+          <text x="130" y="24" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#bf7d10" font-weight="700">G</text>
+          <text x="130" y="36" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#1c815a">99</text>
           <circle cx="65" cy="76" r="18" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="65" y="74" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#1c815a">B</text>
-          <text x="65" y="86" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">72</text>
+          <text x="65" y="74" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#1c815a">B</text>
+          <text x="65" y="86" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">72</text>
           <circle cx="200" cy="76" r="18" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="200" y="74" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#1c815a">K</text>
-          <text x="200" y="86" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">84</text>
+          <text x="200" y="74" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#1c815a">K</text>
+          <text x="200" y="86" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">84</text>
           <circle cx="30" cy="136" r="16" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="30" y="134" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#6435bc">A</text>
-          <text x="30" y="145" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">31</text>
+          <text x="30" y="134" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#6435bc">A</text>
+          <text x="30" y="145" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">31</text>
           <circle cx="100" cy="136" r="16" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="100" y="134" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#6435bc">E</text>
-          <text x="100" y="145" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">55</text>
+          <text x="100" y="134" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#6435bc">E</text>
+          <text x="100" y="145" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">55</text>
           <circle cx="230" cy="136" r="16" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="230" y="134" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#6435bc">M</text>
-          <text x="230" y="145" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">41</text>
-          <text x="130" y="185" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="9" fill="#6a6a63">Keys: BST order &nbsp;|&nbsp; Priorities: max-heap order</text>
+          <text x="230" y="134" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#6435bc">M</text>
+          <text x="230" y="145" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">41</text>
+          <text x="130" y="185" text-anchor="middle" font-family="'Schibsted Grotesk',sans-serif" font-size="9" fill="#6a6a63">Keys: BST order &nbsp;|&nbsp; Priorities: max-heap order</text>
         </svg>
       </div>
       <div class="card amber" style="margin-top:.3em">
@@ -820,26 +820,26 @@
           <line x1="195" y1="68" x2="165" y2="118" stroke="#d1d1cb" stroke-width="1.5"/>
           <line x1="195" y1="68" x2="225" y2="118" stroke="#d1d1cb" stroke-width="1.5"/>
           <circle cx="130" cy="24" r="17" fill="#e7e7e2" stroke="#bf7d10" stroke-width="2"/>
-          <text x="130" y="21" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#bf7d10" font-weight="700">15</text>
-          <text x="130" y="33" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#1c815a">s=7</text>
+          <text x="130" y="21" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#bf7d10" font-weight="700">15</text>
+          <text x="130" y="33" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#1c815a">s=7</text>
           <circle cx="65" cy="64" r="17" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="65" y="61" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#1c815a">10</text>
-          <text x="65" y="73" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">s=3</text>
+          <text x="65" y="61" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#1c815a">10</text>
+          <text x="65" y="73" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">s=3</text>
           <circle cx="195" cy="64" r="17" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="195" y="61" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#1c815a">20</text>
-          <text x="195" y="73" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">s=3</text>
+          <text x="195" y="61" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#1c815a">20</text>
+          <text x="195" y="73" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">s=3</text>
           <circle cx="35" cy="114" r="14" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="35" y="112" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#6435bc">5</text>
-          <text x="35" y="123" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#6a6a63">s=1</text>
+          <text x="35" y="112" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#6435bc">5</text>
+          <text x="35" y="123" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="7" fill="#6a6a63">s=1</text>
           <circle cx="95" cy="114" r="14" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="95" y="112" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#6435bc">12</text>
-          <text x="95" y="123" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#6a6a63">s=1</text>
+          <text x="95" y="112" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#6435bc">12</text>
+          <text x="95" y="123" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="7" fill="#6a6a63">s=1</text>
           <circle cx="165" cy="114" r="14" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="165" y="112" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#6435bc">18</text>
-          <text x="165" y="123" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#6a6a63">s=1</text>
+          <text x="165" y="112" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#6435bc">18</text>
+          <text x="165" y="123" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="7" fill="#6a6a63">s=1</text>
           <circle cx="225" cy="114" r="14" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="225" y="112" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#6435bc">25</text>
-          <text x="225" y="123" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#6a6a63">s=1</text>
+          <text x="225" y="112" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#6435bc">25</text>
+          <text x="225" y="123" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="7" fill="#6a6a63">s=1</text>
         </svg>
       </div>
       <h3 style="margin-top:.4em">Select algorithm</h3>
@@ -896,24 +896,24 @@
           <line x1="210" y1="75" x2="245" y2="125" stroke="#d1d1cb" stroke-width="1.5"/>
           <!-- [15,20] max=30 -->
           <rect x="105" y="10" width="70" height="30" rx="5" fill="#e7e7e2" stroke="#bf7d10" stroke-width="1.5"/>
-          <text x="140" y="23" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#bf7d10">[15,20]</text>
-          <text x="140" y="35" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#1c815a">max=30</text>
+          <text x="140" y="23" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#bf7d10">[15,20]</text>
+          <text x="140" y="35" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#1c815a">max=30</text>
           <!-- [10,30] max=30 -->
           <rect x="35" y="58" width="70" height="30" rx="5" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="70" y="71" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#1c815a">[10,30]</text>
-          <text x="70" y="83" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">max=30</text>
+          <text x="70" y="71" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#1c815a">[10,30]</text>
+          <text x="70" y="83" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">max=30</text>
           <!-- [17,19] max=20 -->
           <rect x="175" y="58" width="70" height="30" rx="5" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="210" y="71" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#1c815a">[17,19]</text>
-          <text x="210" y="83" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#6a6a63">max=20</text>
+          <text x="210" y="71" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#1c815a">[17,19]</text>
+          <text x="210" y="83" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="8" fill="#6a6a63">max=20</text>
           <!-- [5,8] max=8 -->
           <rect x="5" y="110" width="60" height="28" rx="5" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="35" y="123" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6435bc">[5,8]</text>
-          <text x="35" y="133" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#6a6a63">max=8</text>
+          <text x="35" y="123" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#6435bc">[5,8]</text>
+          <text x="35" y="133" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="7" fill="#6a6a63">max=8</text>
           <!-- [20,20] max=20 -->
           <rect x="215" y="110" width="60" height="28" rx="5" fill="#e7e7e2" stroke="#6435bc" stroke-width="1.5"/>
-          <text x="245" y="123" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6435bc">[20,20]</text>
-          <text x="245" y="133" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#6a6a63">max=20</text>
+          <text x="245" y="123" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#6435bc">[20,20]</text>
+          <text x="245" y="133" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="7" fill="#6a6a63">max=20</text>
         </svg>
       </div>
       <h3 style="margin-top:.4em">Applications</h3>
@@ -979,39 +979,39 @@
       <div style="background:var(--bg2); border:1px solid var(--border); border-radius:6px; padding:.4em;">
         <svg viewBox="0 0 300 90" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto">
           <!-- Before -->
-          <text x="60" y="12" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="9" fill="#6a6a63">Before</text>
+          <text x="60" y="12" text-anchor="middle" font-family="'Schibsted Grotesk',sans-serif" font-size="9" fill="#6a6a63">Before</text>
           <line x1="60" y1="28" x2="30" y2="48" stroke="#d1d1cb" stroke-width="1.2"/>
           <line x1="60" y1="28" x2="90" y2="48" stroke="#d1d1cb" stroke-width="1.2"/>
           <line x1="30" y1="48" x2="15" y2="72" stroke="#d1d1cb" stroke-width="1.2"/>
           <line x1="30" y1="48" x2="45" y2="72" stroke="#d1d1cb" stroke-width="1.2"/>
           <circle cx="60" cy="25" r="10" fill="#e7e7e2" stroke="#db3a30" stroke-width="1.5"/>
-          <text x="60" y="28" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#db3a30">z</text>
+          <text x="60" y="28" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#db3a30">z</text>
           <circle cx="30" cy="45" r="10" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="30" y="48" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#1c815a">y</text>
+          <text x="30" y="48" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#1c815a">y</text>
           <circle cx="90" cy="45" r="10" fill="#e7e7e2" stroke="#6435bc" stroke-width="1"/>
-          <text x="90" y="48" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6435bc">T4</text>
+          <text x="90" y="48" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#6435bc">T4</text>
           <circle cx="15" cy="70" r="10" fill="#e7e7e2" stroke="#6435bc" stroke-width="1"/>
-          <text x="15" y="73" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6435bc">T1</text>
+          <text x="15" y="73" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#6435bc">T1</text>
           <circle cx="45" cy="70" r="10" fill="#e7e7e2" stroke="#6435bc" stroke-width="1"/>
-          <text x="45" y="73" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6435bc">T2</text>
+          <text x="45" y="73" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#6435bc">T2</text>
           <!-- Arrow -->
-          <text x="150" y="45" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="16" fill="#bf7d10">&rarr;</text>
+          <text x="150" y="45" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="16" fill="#bf7d10">&rarr;</text>
           <!-- After -->
-          <text x="230" y="12" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="9" fill="#6a6a63">After</text>
+          <text x="230" y="12" text-anchor="middle" font-family="'Schibsted Grotesk',sans-serif" font-size="9" fill="#6a6a63">After</text>
           <line x1="230" y1="28" x2="200" y2="48" stroke="#d1d1cb" stroke-width="1.2"/>
           <line x1="230" y1="28" x2="265" y2="48" stroke="#d1d1cb" stroke-width="1.2"/>
           <line x1="265" y1="48" x2="250" y2="72" stroke="#d1d1cb" stroke-width="1.2"/>
           <line x1="265" y1="48" x2="280" y2="72" stroke="#d1d1cb" stroke-width="1.2"/>
           <circle cx="230" cy="25" r="10" fill="#e7e7e2" stroke="#1c815a" stroke-width="1.5"/>
-          <text x="230" y="28" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#1c815a">y</text>
+          <text x="230" y="28" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#1c815a">y</text>
           <circle cx="200" cy="45" r="10" fill="#e7e7e2" stroke="#6435bc" stroke-width="1"/>
-          <text x="200" y="48" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6435bc">T1</text>
+          <text x="200" y="48" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#6435bc">T1</text>
           <circle cx="265" cy="45" r="10" fill="#e7e7e2" stroke="#db3a30" stroke-width="1.5"/>
-          <text x="265" y="48" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#db3a30">z</text>
+          <text x="265" y="48" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#db3a30">z</text>
           <circle cx="250" cy="70" r="10" fill="#e7e7e2" stroke="#6435bc" stroke-width="1"/>
-          <text x="250" y="73" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6435bc">T2</text>
+          <text x="250" y="73" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#6435bc">T2</text>
           <circle cx="280" cy="70" r="10" fill="#e7e7e2" stroke="#6435bc" stroke-width="1"/>
-          <text x="280" y="73" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6435bc">T4</text>
+          <text x="280" y="73" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="9" fill="#6435bc">T4</text>
         </svg>
       </div>
       <div class="card green" style="margin-top:.3em">
@@ -1066,22 +1066,22 @@
           <line x1="180" y1="52" x2="210" y2="88" stroke="#d1d1cb" stroke-width="1.2"/>
           <!-- Black root 13 -->
           <circle cx="120" cy="20" r="14" fill="#e7e7e2" stroke="#161616" stroke-width="2"/>
-          <text x="120" y="24" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#161616" font-weight="700">13</text>
+          <text x="120" y="24" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#161616" font-weight="700">13</text>
           <!-- Red 8 -->
           <circle cx="60" cy="50" r="14" fill="#fee4e0" stroke="#db3a30" stroke-width="2"/>
-          <text x="60" y="54" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#db3a30">8</text>
+          <text x="60" y="54" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#db3a30">8</text>
           <!-- Black 17 -->
           <circle cx="180" cy="50" r="14" fill="#e7e7e2" stroke="#161616" stroke-width="2"/>
-          <text x="180" y="54" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="11" fill="#161616">17</text>
+          <text x="180" y="54" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="11" fill="#161616">17</text>
           <!-- Black 1 -->
           <circle cx="35" cy="86" r="12" fill="#e7e7e2" stroke="#161616" stroke-width="1.5"/>
-          <text x="35" y="90" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#161616">1</text>
+          <text x="35" y="90" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#161616">1</text>
           <!-- Black 11 -->
           <circle cx="85" cy="86" r="12" fill="#e7e7e2" stroke="#161616" stroke-width="1.5"/>
-          <text x="85" y="90" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#161616">11</text>
+          <text x="85" y="90" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#161616">11</text>
           <!-- Red 25 -->
           <circle cx="210" cy="86" r="12" fill="#fee4e0" stroke="#db3a30" stroke-width="1.5"/>
-          <text x="210" y="90" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#db3a30">25</text>
+          <text x="210" y="90" text-anchor="middle" font-family="'Azeret Mono',monospace" font-size="10" fill="#db3a30">25</text>
         </svg>
       </div>
     </div>
